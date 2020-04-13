@@ -1,7 +1,8 @@
 <template>
-  <div class="main2">
-    <div class="body">
-      <div class="title">
+  <div class="container">
+    	<div class="row">
+    <div class="col-10">
+     <div class="title">
         <h2>what i do</h2>
       </div>
       <div class="paragraph">
@@ -13,21 +14,16 @@
           <span style="color:#54B689;">project portfolio</span>.
         </p>
       </div>
+    
+		</div>
+     
     </div>
   </div>
 </template>
 <style scoped>
-.main2 {
-  height: 30em;
-  float: right;
-  height: 3em;
-  width: 81.5%;
-  max-width: 82.5%;
+.container {
+  margin-top: 2rem; 
 }
-.body {
-  margin-left: 3em;
-}
-
 .title h2 {
   border-left: 8px solid #54b689;
   padding: 0.3em;

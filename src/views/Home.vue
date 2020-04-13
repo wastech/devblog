@@ -1,26 +1,28 @@
 <template>
   <div class="home">
-    <HelloWorld />
+    
     <SideNave />
     <whatido />
     <experience />
+	<FeatureProject/>>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+
 import SideNave from "@/components/SideNave";
 import whatido from "@/components/whatido";
 import experience from "@/components/experience";
+import FeatureProject from '@/components/FeatureProject'
 
 export default {
   name: "Home",
   components: {
-    HelloWorld,
     SideNave,
     whatido,
-    experience
+	experience,
+	FeatureProject
   }
 };
 </script>

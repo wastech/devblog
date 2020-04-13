@@ -1,5 +1,12 @@
 <template>
-  <div class="hello">
+  <div class="hello ">
+	  <nav class="navbar navbar-expand-lg navbar-dark">
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class=" collapse navbar-collapse flex-column" id="navbarSupportedContent">
     <h1 class="head">Aremu Wasiu</h1>
     <div class="image">
       <img src="@/assets/ne.jpg" />
@@ -36,6 +43,8 @@
         <span class="slider round"></span>
       </label>
     </div>
+  </div>
+	  </nav>
   </div>
 </template>
 
@@ -78,10 +87,10 @@ export default {
 }
 .hello {
   background-color: #54b689;
-  max-width: 18%;
+  width: 100%;
   border-right: 7px solid teal;
-  height: 80em;
-  float: left;
+  height: 100%;
+  
 }
 h1.head {
   color: white;
