@@ -2,7 +2,7 @@
 <div class="main">
     <div class="container">
         <div class="row">
-            <div class="col-sm-7">
+            <div class="col-sm-8">
                 <div class="bio">
                     <h1>Aremu Wasiu</h1>
                     <h3>Senior Software Engineer</h3>
@@ -37,8 +37,10 @@
 </template>
 
 <style scoped>
+
 .main {
-    background-color: #fafafa !important;
+    background-color: #fafafa;
+	padding: 0%;
 
    
 

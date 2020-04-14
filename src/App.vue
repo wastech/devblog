@@ -1,10 +1,10 @@
 <template>
 <div id="app">
     <div class="row">
-        <div class="col-sm-2">
-            <HelloWorld />
+        <div class="col-sm-2 ">
+            <LeftSideNav/>
         </div>
-		 <div class="col-sm-10">
+		 <div class="col-sm-10 " >
            <router-view />
         </div>
        
@@ -15,10 +15,10 @@
 </div>
 </template>
 <script>
-import HelloWorld from "@/components/HelloWorld.vue";
+import LeftSideNav from "@/components/LeftSideNav.vue";
 export default {
 	 components: {
-    HelloWorld,
+    LeftSideNav
     
   }
 	
@@ -26,7 +26,8 @@ export default {
 </script>
 
 <style scoped>
-#app {
-    margin: 0px;
+.col-8{
+	padding: 0;
 }
+
 </style>
