@@ -5,19 +5,19 @@
             <h1 style="padding-top:3rem"> aremu</h1>
             <p class="p">Welcome to my online portfolio. Lorem ipsum dolor sit amet, consectetuer
                 adipiscing elit. Aenean commodo ligula eget dolor. I'm tst some help building your software?</p>
-            <button type="button" class="btn btn-primary mt-5 mb-5">view blog</button>
+            <button type="button" class="btn btn-primary mt-2">view blog</button>
         </div>
     </div>
-    <div class="container">
+    <div class="container mt-5">
 
         <form>
             <h1>Get in touch</h1>
             <div class="row">
 
-                <div class="col-sm-6">
+                <div class="col-sm-6 mt-2 ">
                     <input type="text" class="form-control" placeholder="First name">
                 </div>
-                <div class="col-sm-6 ">
+                <div class="col-sm-6 mt-2 ">
                     <input type="text" class="form-control" placeholder="Last name">
                 </div>
 
@@ -33,7 +33,7 @@
 
                 </div>
             </div>
-            <small class="mt-5">hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh</small>
+            
             <textarea class="form-control mt-4 mb-4" rows="10" placeholder="Required example textarea"></textarea>
             <button type="button" class="btn btn-primary btn-lg btn-block">Submit</button>
         </form>
@@ -60,5 +60,12 @@ p .p {
     width: 53%;
     text-align: center;
     margin: 0 auto;
+}
+@media screen and (max-width: 750px) {
+  form {
+    
+	 width: 90%;
+    margin: 0 auto;
+  }
 }
 </style>
