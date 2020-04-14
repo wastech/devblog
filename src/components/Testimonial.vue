@@ -1,5 +1,5 @@
 <template>
-<div class="container" style="margin-top:7rem">
+<div class="container" style="margin-top:2rem">
     <div class="title">
         <h2>Testimonials</h2>
     </div>
@@ -12,7 +12,6 @@
                         <li class="media">
                             <img :src="item.src" class="mr-3" alt="..." style="border-radius: 50% ;height:5em; width:34%;">
                             <div class="media-body">
-
                                 {{item.name}}<br>
                                 {{item.position}}.
                             </div>
@@ -21,9 +20,8 @@
                 </blockquote>
             </div>
         </div>
-
+        <button type="button" class="btn btn-success mt-3 text-center" style="margin:0 auto;">Testimonials</button>
     </div>
-    <button type="button" class="btn btn-primary mt-5 mb-5">view blog</button>
 </div>
 </template>
 

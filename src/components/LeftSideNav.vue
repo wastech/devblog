@@ -1,14 +1,11 @@
 <template>
-<div class="hello  ">
-
+<div class="hello ">
     <nav class="navbar navbar-expand-lg navbar-dark">
-
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class=" collapse navbar-collapse flex-column" id="navbarSupportedContent">
-            <h1 class="head">Aremu Wasiu</h1>
+            <h1 class="head pt-lg-4 mb-0">Wastech</h1>
             <div class="image">
                 <img src="@/assets/ne.jpg" />
             </div>
@@ -20,7 +17,6 @@
                     <i :class="item.icon"></i>
                 </div>
             </div>
-
             <div class="work mt-5">
                 <ul v-for="(icon,i) in icons" v-bind:key="i">
                     <li>
@@ -52,7 +48,6 @@
 <script>
 export default {
     name: "HelloWorld",
-
     props: {
         msg: String
     },
@@ -86,7 +81,8 @@ export default {
                 },
                 {
                     icon: "fas fa-shopping-bag",
-                    title: "services & princing"
+                    title: "services & princing",
+                    link: '/service'
                 },
                 {
                     icon: "fas fa-file",
@@ -143,7 +139,7 @@ h1.head {
 }
 
 img {
-    max-width: 60%;
+    max-width: 70%;
     border-radius: 50%;
     height: 170px;
 }

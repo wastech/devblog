@@ -1,11 +1,11 @@
 <template>
-<div class="container" style="margin-top:7rem">
+<div class="container" style="margin-top:4rem">
     <div class="title">
         <h2>Latest Blog Posts</h2>
     </div>
     <div class="row">
         <div class="col-sm-4" v-for="item in items" :key="item">
-            <div class="card" style="width: 100%;">
+            <div class="card mb-3" style="width: 100%;">
                 <img :src="item.src" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">{{item.title}}</h5>
@@ -14,9 +14,8 @@
                 </div>
             </div>
         </div>
-
+        <button type="button" class="btn btn-success mt-5 text-center" style="margin:0 auto;">View Blog</button>
     </div>
-    <button type="button" class="btn btn-primary mt-5 mb-5">view blog</button>
 </div>
 </template>
 

@@ -1,12 +1,20 @@
 <template>
 <div>
     <div class="main">
-        <div class="text-center">
-            <h1 style="padding-top:3rem"> aremu</h1>
-            <p class="p">Welcome to my online portfolio. Lorem ipsum dolor sit amet, consectetuer
-                adipiscing elit. Aenean commodo ligula eget dolor. I'm tst some help building your software?</p>
-            <input type="email" id="exampleInputEmail1" aria-describedby="emailHelp">
-        </div>
+        <section class="cta-section theme-bg-light py-5">
+            <div class="container text-center">
+                <h2 class="heading">A Blog About Software Development And Life</h2>
+                <div class="intro">Welcome to my blog. Subscribe and get my latest blog post in your inbox.</div>
+                <form class="signup-form form-inline justify-content-center pt-3">
+                    <div class="form-group">
+                        <label class="sr-only" for="semail">Your email</label>
+                        <input type="email" id="semail" name="semail1" class="form-control mr-md-1 semail" placeholder="Enter email">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+            <!--//container-->
+        </section>
     </div>
     <div class="container mt-2">
         <div class="row">

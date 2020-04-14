@@ -4,6 +4,7 @@ import Home from '../views/Home.vue'
 import Portfolio from '@/components/Portfolio.vue'
 import Blog from '@/components/Blog.vue'
 import Contact from '@/components/Contact.vue'
+import ServicesPricing from '@/components/ServicesPricing.vue'
 
 Vue.use(VueRouter)
 
@@ -35,6 +36,11 @@ const routes = [{
         path: '/contact',
         name: 'contact',
         component: Contact
+    },
+    {
+        path: '/service',
+        name: 'service',
+        component: ServicesPricing
     }
 ]
 

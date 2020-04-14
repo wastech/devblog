@@ -9,31 +9,26 @@
         </div>
     </div>
     <div class="container mt-5">
-
         <form>
             <h1>Get in touch</h1>
             <div class="row">
-
                 <div class="col-sm-6 mt-2 ">
                     <input type="text" class="form-control" placeholder="First name">
                 </div>
                 <div class="col-sm-6 mt-2 ">
                     <input type="text" class="form-control" placeholder="Last name">
                 </div>
-
                 <div class="col-sm-12 mt-4 mb-4">
                     <select class="custom-select" id="validationDefault04" required>
                         <option selected disabled value="">Choose...</option>
-                        <option>ifon</option>
-                        <option>ifon</option>
-                        <option>ifon</option>
-                        <option>ifon</option>
-                        <option>ifon</option>
+                        <option>osun</option>
+                        <option>ogun</option>
+                        <option>eko</option>
+                        <option>ekiti</option>
+                        <option>edo</option>
                     </select>
-
                 </div>
             </div>
-            
             <textarea class="form-control mt-4 mb-4" rows="10" placeholder="Required example textarea"></textarea>
             <button type="button" class="btn btn-primary btn-lg btn-block">Submit</button>
         </form>
@@ -61,11 +56,12 @@ p .p {
     text-align: center;
     margin: 0 auto;
 }
+
 @media screen and (max-width: 750px) {
-  form {
-    
-	 width: 90%;
-    margin: 0 auto;
-  }
+    form {
+
+        width: 90%;
+        margin: 0 auto;
+    }
 }
 </style>

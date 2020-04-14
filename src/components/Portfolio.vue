@@ -5,12 +5,10 @@
             <h1 style="padding-top:3rem"> aremu</h1>
             <p class="p">Welcome to my online portfolio. Lorem ipsum dolor sit amet, consectetuer
                 adipiscing elit. Aenean commodo ligula eget dolor. I'm tst some help building your software?</p>
-            <button type="button" class="btn btn-primary mt-5 mb-5">view blog</button>
+            <button type="button" class="btn btn-success mt-5 mb-5">hire me</button>
         </div>
-
     </div>
     <div class="container " style="margin-top:4rem;">
-
         <div class="row">
             <div class="col-sm-6 mt-3 " v-for="item in items" :key="item.id">
                 <div class="card mb-3" style="max-width: 540px;">
@@ -28,7 +26,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 </div>
@@ -99,7 +96,7 @@ export default {
 }
 
 p .p {
-    width: 53%;
+    width: 40%;
     text-align: center;
     margin: 0 auto;
 }

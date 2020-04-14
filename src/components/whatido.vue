@@ -14,9 +14,7 @@
                     <span style="color:#54B689;">project portfolio</span>.
                 </p>
             </div>
-
         </div>
-
     </div>
 </div>
 </template>
