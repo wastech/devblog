@@ -2,7 +2,7 @@
 <div class="container">
     <div class="main">
         <div class="row">
-            <div class="col-sm-3 col-6" v-for="(icon,i) in icons" v-bind:key="i">
+            <div class="col-sm-3 col-12 col-md-6"  v-for="(icon,i) in icons" v-bind:key="i">
                 <a :class="icon.icon" href="#home"></a>&nbsp; &nbsp;&nbsp;
                 <a :class="icon.icon1" href="#home"></a>&nbsp;&nbsp;&nbsp;
                 <a :class="icon.icon2" href="#home"></a>
@@ -13,8 +13,9 @@
                     <a>{{icon.text}}</a>
                 </p>
             </div>
-            <button type="button" class="btn btn-success mt-5 mb-5 text-center" style="margin:0 auto;">Services & pricing</button>
+            
         </div>
+		<button type="button" class="btn btn-success mt-5 mb-5 text-center" style="margin:0 auto;">Services & pricing</button>
     </div>
     <!-- <div class="body">
         <ul class="list">
