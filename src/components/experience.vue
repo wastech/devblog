@@ -2,7 +2,7 @@
 <div class="container">
     <div class="main">
         <div class="row">
-            <div class="col-sm-3 col-12 col-md-6"  v-for="(icon,i) in icons" v-bind:key="i">
+            <div class="col-sm-6 col-12 col-md-6 col-lg-4"  v-for="(icon,i) in icons" v-bind:key="i">
                 <a :class="icon.icon" href="#home"></a>&nbsp; &nbsp;&nbsp;
                 <a :class="icon.icon1" href="#home"></a>&nbsp;&nbsp;&nbsp;
                 <a :class="icon.icon2" href="#home"></a>

@@ -36,18 +36,18 @@ export default {
                     updatedtime: 'Last updated 3 mins ago'
                 },
                 {
-                    src: "https://cdn.dribbble.com/users/1171505/screenshots/11018981/media/296e5c43b1fe9fe3ed5f78251e94cd3d.png",
+                    src: "https://cdn.dribbble.com/users/525049/screenshots/6169143/shutterstock-1335061265_1x.png",
                     title: "page heading",
                     text: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.',
                     updatedtime: 'Last updated 3 mins ago'
                 }, {
-                    src: "https://cdn.dribbble.com/users/1171505/screenshots/11018981/media/296e5c43b1fe9fe3ed5f78251e94cd3d.png",
+                    src: "https://cdn.dribbble.com/users/2826468/screenshots/6480128/00030.jpg",
                     title: "page heading",
                     text: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.',
                     updatedtime: 'Last updated 3 mins ago'
                 },
                 {
-                    src: "https://cdn.dribbble.com/users/1171505/screenshots/11018981/media/296e5c43b1fe9fe3ed5f78251e94cd3d.png",
+                    src: "https://cdn.dribbble.com/users/2044666/screenshots/7075423/media/b344e0212c41532c5b3820f0818a6380.jpg",
                     title: "page heading",
                     text: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.',
                     updatedtime: 'Last updated 3 mins ago'

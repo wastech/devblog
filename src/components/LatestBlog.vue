@@ -24,18 +24,18 @@ export default {
     data() {
         return {
             items: [{
-                    src: "https://cdn.dribbble.com/users/1171505/screenshots/11018981/media/296e5c43b1fe9fe3ed5f78251e94cd3d.png",
+                    src: "https://cdn.dribbble.com/users/604891/screenshots/6177907/mishax-work.png",
                     title: "page heading",
                     text: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.',
                     updatedtime: 'Last updated 3 mins ago'
                 },
                 {
-                    src: "https://cdn.dribbble.com/users/1171505/screenshots/11018981/media/296e5c43b1fe9fe3ed5f78251e94cd3d.png",
+                    src: "https://cdn.dribbble.com/users/499731/screenshots/6679284/floating.png",
                     title: "page heading",
                     text: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.',
                     updatedtime: 'Last updated 3 mins ago'
                 }, {
-                    src: "https://cdn.dribbble.com/users/1171505/screenshots/11018981/media/296e5c43b1fe9fe3ed5f78251e94cd3d.png",
+                    src: "https://cdn.dribbble.com/users/3632054/screenshots/6918680/whatsapp_image_2019-08-05_at_12.01.55_am.jpeg",
                     title: "page heading",
                     text: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.',
                     updatedtime: 'Last updated 3 mins ago'

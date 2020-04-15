@@ -1,17 +1,13 @@
 <template>
 <div id="app">
     <div class="row">
-        <div class="  col-sm-2 col-md-3">
+        <div class="  col-sm-2 col-md-2">
             <LeftSideNav/>
         </div>
-		 <div class="col-sm-10 col-md-9 " >
+		 <div class="col-sm-10 col-md-10" >
            <router-view />
         </div>
-       
-
     </div>
-
-
 </div>
 </template>
 <script>
