@@ -62,7 +62,7 @@ export default {
                     updatedtime: 'Last updated 3 mins ago'
                 },
                 {
-                    src: "https://cdn.dribbble.com/users/1171505/screenshots/11018981/media/296e5c43b1fe9fe3ed5f78251e94cd3d.png",
+                    src: "https://cdn.dribbble.com/users/604891/screenshots/6177907/mishax-work_4x.png?compress=1&resize=800x600",
                     title: "page heading",
                     text: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.',
                     updatedtime: 'Last updated 3 mins ago'
