@@ -4,7 +4,7 @@
         <h2>Latest Blog Posts</h2>
     </div>
     <div class="row">
-        <div class="col-sm-4" v-for="item in items" :key="item">
+        <div class="col-sm-4" v-for="(item,index) in items" :key="index">
             <div class="card mb-3" style="width: 100%;">
                 <img :src="item.src" class="card-img-top" alt="...">
                 <div class="card-body">

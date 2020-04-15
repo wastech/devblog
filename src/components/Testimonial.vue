@@ -4,7 +4,7 @@
         <h2>Testimonials</h2>
     </div>
     <div class="row">
-        <div class="col-sm-4" v-for="item in items" :key="item">
+        <div class="col-sm-4" v-for="(item,index) in items" :key="index">
             <div class="card p-3 mt-3">
                 <blockquote class="blockquote mb-0 card-body">
                     <p>{{item.text}}</p>
