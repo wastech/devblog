@@ -1,11 +1,11 @@
 <template>
-  <div class="container" style="margin-top:4rem">
+  <div class="container">
     <div class="title">
       <h2>Latest Blog Posts</h2>
     </div>
     <div class="row">
       <div class="col-sm-4" v-for="(item,index) in items" :key="index">
-        <div class="card mb-3" style="width: 100%;">
+        <div class="card mb-3">
           <img :src="item.src" class="card-img-top" alt="..." />
           <div class="card-body">
             <h5 class="card-title">{{item.title}}</h5>
@@ -14,11 +14,7 @@
           </div>
         </div>
       </div>
-      <button
-        type="button"
-        class="btn btn-success mt-5 text-center"
-        style="margin:0 auto;"
-      >View Blog</button>
+      <button type="button" class="btn btn-success mt-3 text-center">View Blog</button>
     </div>
   </div>
 </template>
@@ -59,13 +55,19 @@ export default {
 </script>
 
 <style scoped>
+.container {
+  margin-top: 3rem;
+}
+button {
+  margin: 0 auto;
+}
 .title h2 {
   border-left: 8px solid #54b689;
   padding: 0.3em;
   margin-bottom: 2rem;
 }
-img{
-	height: 100%;
-	object-fit: cover;
+img {
+  height: 100%;
+  object-fit: cover;
 }
 </style>

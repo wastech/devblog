@@ -1,5 +1,5 @@
 <template>
-  <div class="container" style="margin-top:2rem">
+  <div class="container">
     <div class="title">
       <h2>Testimonials</h2>
     </div>

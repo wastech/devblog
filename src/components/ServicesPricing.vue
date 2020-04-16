@@ -5,7 +5,10 @@
       <div class="intro">
         <p>
           I have 10+ years of development experience building software for the web and mobile devices. You can take a look at my
-          <a href="portfolio.html" target="_blank">project portfolio</a> and
+          <a
+            href="portfolio.html"
+            target="_blank"
+          >project portfolio</a> and
           <a href="resume.html" target="_blank">online resume</a> to find out more about my skills and experiences.
         </p>
         <p

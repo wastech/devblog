@@ -26,7 +26,7 @@
     <div class="container mt-2">
       <div class="row">
         <div class="col-sm-4" v-for="item in items" :key="item">
-          <div class="card mt-5" style="width: 100%;">
+          <div class="card mt-5">
             <img :src="item.src" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">{{item.title}}</h5>
@@ -102,16 +102,12 @@ export default {
 
 <style scoped>
 .main {
-  height: 16rem;
+  height: auto;
   background-color: #fafafa !important;
 }
-</style><style scoped>
-p .p {
-  width: 50%;
-  text-align: center;
-  margin: 0 auto;
-}
+
 img {
   object-fit: cover;
+  height: 100%;
 }
 </style>

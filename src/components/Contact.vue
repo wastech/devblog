@@ -2,8 +2,8 @@
   <div>
     <div class="main">
       <div class="text-center">
-        <h1 style="padding-top:3rem">aremu</h1>
-        <p class="p">
+        <h1>aremu</h1>
+        <p>
           Welcome to my online portfolio. Lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. I'm tst some help building your software?
         </p>
@@ -53,7 +53,7 @@ h1 {
   background-color: #fafafa !important;
 }
 
-p .p {
+p {
   width: 53%;
   text-align: center;
   margin: 0 auto;

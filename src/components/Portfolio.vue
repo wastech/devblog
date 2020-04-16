@@ -2,21 +2,21 @@
   <div>
     <div class="main">
       <div class="text-center">
-        <h1 style="padding-top:3rem">aremu</h1>
-        <p class="p">
+        <h1>aremu</h1>
+        <p>
           Welcome to my online portfolio. Lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. I'm tst some help building your software?
         </p>
         <button type="button" class="btn btn-success mt-5 mb-5">hire me</button>
       </div>
     </div>
-    <div class="container" style="margin-top:4rem;">
+    <div class="container">
       <div class="row">
         <div class="col-sm-6 mt-3" v-for="item in items" :key="item.id">
-          <div class="card mb-3" style="max-width: 540px;">
+          <div class="card mb-3">
             <div class="row no-gutters">
               <div class="col-md-4">
-                <img :src="item.src" class="card-img" alt="..." style="height:100%" />
+                <img :src="item.src" class="card-img" alt="..." />
               </div>
               <div class="col-md-8">
                 <div class="card-body">
@@ -110,20 +110,24 @@ export default {
 };
 </script>
 
-<
-
 <style scoped>
 .main {
-    height: 16rem;
-    background-color: #fafafa !important;
+  height: 16rem;
+  background-color: #fafafa !important;
 }
 
-p .p {
-    width: 40%;
-    text-align: center;
-    margin: 0 auto;
+p {
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
 }
-img{
-	object-fit:cover;
+
+img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.container {
+  margin-top: 3rem;
 }
 </style>

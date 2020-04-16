@@ -1,11 +1,11 @@
 <template>
-  <div class="container" style="margin-top:4rem;">
+  <div class="container">
     <div class="title">
       <h2>Featured Projects</h2>
     </div>
     <div class="row">
       <div class="col-sm-6 mt-3" v-for="item in items" :key="item.id">
-        <div class="card mb-3" style="max-width: 540px;">
+        <div class="card mb-3">
           <div class="row no-gutters">
             <div class="col-md-4">
               <img :src="item.src" class="card-img" alt="..." />
@@ -22,11 +22,7 @@
           </div>
         </div>
       </div>
-      <button
-        type="button"
-        class="btn btn-success mt-3 text-center"
-        style="margin:0 auto;"
-      >View Portfolio</button>
+      <button type="button" class="btn btn-success mt-3 text-center">View Portfolio</button>
     </div>
   </div>
 </template>
@@ -75,6 +71,12 @@ export default {
 </script>
 
 <style scoped>
+button {
+  margin: 0 auto;
+}
+.container {
+  margin-top: 3rem;
+}
 .title h2 {
   border-left: 8px solid #54b689;
   padding: 0.3em;

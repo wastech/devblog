@@ -54,7 +54,6 @@ img {
   height: 15em;
   margin-top: 2em;
   object-fit: cover;
-  
 }
 
 .btn1 {
