@@ -116,8 +116,8 @@ export default {
   background-color: #fafafa !important;
 }
 
-p {
-  width: 60%;
+p.p {
+  width: 70%;
   text-align: center;
   margin: 0 auto;
 }
