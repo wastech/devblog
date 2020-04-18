@@ -41,7 +41,7 @@
 <style scoped>
 .main {
   background-color: #fafafa;
-  padding: 0%;
+  margin-left: 0;
 }
 
 div.bio {

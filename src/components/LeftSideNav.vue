@@ -1,6 +1,8 @@
 <template>
   <div class="hello">
+	  
     <nav class="navbar navbar-expand-lg navbar-dark">
+		
       <button
         class="navbar-toggler"
         type="button"
@@ -9,11 +11,10 @@
         aria-controls="navbarSupportedContent"
         aria-expanded="false"
         aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
+      > 
+        <span class="navbar-toggler-icon"> </span>
       </button>
       <div class="collapse navbar-collapse flex-column" id="navbarSupportedContent">
-        <h1 class="head pt-lg-4 mb-0">Wastech</h1>
         <div class="image">
           <img src="@/assets/ne.jpg" />
         </div>
@@ -129,8 +130,9 @@ export default {
 }
 
 .hello .navbar {
-  padding-top: 1.5rem;
+  padding-top: 1rem;
   padding-left: 0rem;
+ 
 }
 
 .hello {
@@ -143,17 +145,19 @@ export default {
 h1.head {
   color: white;
   text-align: center;
+ 
 }
 
 .image {
   margin: 0 auto;
   text-align: center;
+  max-width: 160px;
 }
 
 img {
-  max-width: 70%;
+  width: 100%;
   border-radius: 50%;
-  height: 170px;
+  height: 160px;
   object-fit: cover;
 }
 
