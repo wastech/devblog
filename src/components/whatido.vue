@@ -7,13 +7,12 @@
         </div>
         <div class="paragraph">
           <p>
-            I have more than 10 years' experience building software for clients
-            all over the world. Below is a quick overview of my main technical skill sets and technologies
-            I use. Want to find out more about my experience? Check out my
-            <span
-              style="color:#54B689;"
-            >online resume</span>and
-            <span style="color:#54B689;">project portfolio</span>.
+            I have more than 10 years' experience building software
+            for clients all over the world. Below is a quick overview
+            of my main technical skill sets and technologies I use.
+            Want to find out more about my experience? Check out my
+            <span style="color: #54b689;">online resume</span>and
+            <span style="color: #54b689;">project portfolio</span>.
           </p>
         </div>
       </div>

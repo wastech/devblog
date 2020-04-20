@@ -4,10 +4,13 @@
       <div class="text-center">
         <h1>aremu</h1>
         <p>
-          Welcome to my online portfolio. Lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. I'm tst some help building your software?
+          Welcome to my online portfolio. Lorem ipsum dolor sit amet,
+          consectetuer adipiscing elit. Aenean commodo ligula eget dolor. I'm
+          tst some help building your software?
         </p>
-        <button type="button" class="btn btn-primary mt-2">view blog</button>
+        <button type="button" class="btn btn-primary mt-2">
+          view blog
+        </button>
       </div>
     </div>
     <div class="container mt-5">
@@ -31,8 +34,14 @@
             </select>
           </div>
         </div>
-        <textarea class="form-control mt-4 mb-4" rows="10" placeholder="Required example textarea"></textarea>
-        <button type="button" class="btn btn-primary btn-lg btn-block">Submit</button>
+        <textarea
+          class="form-control mt-4 mb-4"
+          rows="10"
+          placeholder="Required example textarea"
+        ></textarea>
+        <button type="button" class="btn btn-primary btn-lg btn-block">
+          Submit
+        </button>
       </form>
     </div>
   </div>

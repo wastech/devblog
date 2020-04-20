@@ -7,16 +7,13 @@
             <h1>Aremu Wasiu</h1>
             <h3>Senior Software Engineer</h3>
             <p>
-              I am a software engineer specialised in frontend and backend development for
-              complex scalable web apps. I write about software development on
-              <span
-                style="color:#54B689;"
-              >my blog</span>. Want
-              to know how I may help your project? Check out my project
-              <span
-                style="color:#54B689;"
-              >portfolio</span> and
-              <span style="color:#54B689;">online resume.</span>
+              I am a software engineer specialised in frontend and
+              backend development for complex scalable web apps. I
+              write about software development on
+              <span style="color: #54b689;">my blog</span>. Want to
+              know how I may help your project? Check out my project
+              <span style="color: #54b689;">portfolio</span> and
+              <span style="color: #54b689;">online resume.</span>
             </p>
             <button class="btn1">
               <i class="fa fa-home"></i> view portfolio
