@@ -31,62 +31,62 @@ export default {
     return {
       icons: [
         {
-          icon: 'fab fa-js fa-2x',
-          title: 'Vanilla JavaScript',
+          icon: "fab fa-js fa-2x",
+          title: "Vanilla JavaScript",
           text:
-            'List skills/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.aremu'
+            "List skills/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.aremu",
         },
         {
-          icon: 'fab fa-vuejs fa-2x  ',
-          icon1: 'fab fa-angular fa-2x  ',
-          icon2: 'fab fa-react fa-2x  ',
-          title: 'Angular, React & Vue',
+          icon: "fab fa-vuejs fa-2x  ",
+          icon1: "fab fa-angular fa-2x  ",
+          icon2: "fab fa-react fa-2x  ",
+          title: "Angular, React & Vue",
           text:
-            'List skills/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.'
+            "List skills/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.",
         },
         {
-          icon: 'fab fa-node-js fa-2x',
-          title: 'Node.js',
+          icon: "fab fa-node-js fa-2x",
+          title: "Node.js",
           text:
-            'List skills/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.'
+            "List skills/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.",
         },
         {
-          icon: 'fab fa-python fa-2x',
-          title: 'Python & Django',
+          icon: "fab fa-python fa-2x",
+          title: "Python & Django",
           text:
-            'List skills/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.'
+            "List skills/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.",
         },
         {
-          icon: 'fab fa-php fa-2x',
-          title: 'PHP',
+          icon: "fab fa-php fa-2x",
+          title: "PHP",
           text:
-            'List skills/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.'
+            "List skills/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.",
         },
         {
-          icon: 'fab fa-npm fa-2x',
-          icon1: 'fab fa-gulp fa-2x',
-          icon2: 'fab fa-grunt fa-2x',
-          title: 'npm, Gulp & Grunt',
+          icon: "fab fa-npm fa-2x",
+          icon1: "fab fa-gulp fa-2x",
+          icon2: "fab fa-grunt fa-2x",
+          title: "npm, Gulp & Grunt",
           text:
-            'List skills/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.'
+            "List skills/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.",
         },
         {
-          icon: 'fab fa-html5 fa-2x',
-          icon1: 'fab fa-css3-alt fa-2x',
-          title: 'HTML & CSS',
+          icon: "fab fa-html5 fa-2x",
+          icon1: "fab fa-css3-alt fa-2x",
+          title: "HTML & CSS",
           text:
-            'List skills/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.'
+            "List skills/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.",
         },
         {
-          icon: 'fab fa-sass fa-2x',
-          icon1: 'fab fa-less fa-2x',
-          title: 'Sass & LESS',
+          icon: "fab fa-sass fa-2x",
+          icon1: "fab fa-less fa-2x",
+          title: "Sass & LESS",
           text:
-            'List skills/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.'
-        }
-      ]
+            "List skills/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.",
+        },
+      ],
     };
-  }
+  },
 };
 </script>
 

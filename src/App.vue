@@ -15,8 +15,8 @@
 import LeftSideNav from "@/components/LeftSideNav.vue";
 export default {
   components: {
-    LeftSideNav
-  }
+    LeftSideNav,
+  },
 };
 </script>
 
