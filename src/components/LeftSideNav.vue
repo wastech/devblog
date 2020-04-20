@@ -1,8 +1,6 @@
 <template>
   <div class="hello">
-	 
     <nav class="navbar navbar-expand-lg navbar-dark">
-		
       <button
         class="navbar-toggler"
         type="button"
@@ -11,10 +9,13 @@
         aria-controls="navbarSupportedContent"
         aria-expanded="false"
         aria-label="Toggle navigation"
-      > 
+      >
         <span class="navbar-toggler-icon"> </span>
       </button>
-      <div class="collapse navbar-collapse flex-column" id="navbarSupportedContent">
+      <div
+        class="collapse navbar-collapse flex-column"
+        id="navbarSupportedContent"
+      >
         <div class="image">
           <img src="@/assets/ne.jpg" />
         </div>
@@ -32,21 +33,34 @@
         <div class="work mt-5">
           <ul v-for="(icon, i) in icons" v-bind:key="i">
             <li>
-              <a :class="icon.icon" :href="icon.link">&nbsp; &nbsp; {{ icon.title }}</a>
+              <a :class="icon.icon" :href="icon.link"
+                >&nbsp; &nbsp; {{ icon.title }}</a
+              >
             </li>
           </ul>
         </div>
-        <div style="text-align:center;">
-          <button class="btn">
-            <i class="fa fa-home"></i> hire me
-          </button>
+        <div style="text-align: center;">
+          <button class="btn"><i class="fa fa-home"></i> hire me</button>
         </div>
-        <div class="dark" style="text-align : center;width:80%; margin-top:2rem; color:white;">
-          <span>
-            <i class="fas fa-toggle-on"></i> dark mode
-          </span>
+        <div
+          class="dark"
+          style="
+            text-align: center;
+            width: 80%;
+            margin-top: 2rem;
+            color: white;
+          "
+        >
+          <span> <i class="fas fa-toggle-on"></i> dark mode </span>
         </div>
-        <div style="text-align:center; margin-top:1rem; margin-bottom:4rem; width:80%;">
+        <div
+          style="
+            text-align: center;
+            margin-top: 1rem;
+            margin-bottom: 4rem;
+            width: 80%;
+          "
+        >
           <label class="switch">
             <input type="checkbox" checked />
             <span class="slider round"></span>
@@ -61,60 +75,60 @@
 export default {
   name: "HelloWorld",
   props: {
-    msg: String
+    msg: String,
   },
   data() {
     return {
       items: [
         {
-          icon: "fab fa-twitter "
+          icon: "fab fa-twitter ",
         },
         {
-          icon: "fab fa-linkedin-in "
+          icon: "fab fa-linkedin-in ",
         },
         {
-          icon: "fab fa-github-alt "
+          icon: "fab fa-github-alt ",
         },
         {
-          icon: "fab fa-stack-overflow "
+          icon: "fab fa-stack-overflow ",
         },
         {
-          icon: "fab fa-codepen "
-        }
+          icon: "fab fa-codepen ",
+        },
       ],
       icons: [
         {
           icon: "fas fa-user-shield",
           title: "About me",
-          link: "/"
+          link: "/",
         },
         {
           icon: "fas fa-laptop",
           title: "portfolio",
-          link: "portfolio"
+          link: "portfolio",
         },
         {
           icon: "fas fa-shopping-bag",
           title: "services & princing",
-          link: "/service"
+          link: "/service",
         },
         {
           icon: "fas fa-file",
-          title: "resume"
+          title: "resume",
         },
         {
           icon: "fas fa-file",
           title: "blog",
-          link: "/blog"
+          link: "/blog",
         },
         {
           icon: "fas fa-id-card-alt ",
           title: "contact",
-          link: "/contact"
-        }
-      ]
+          link: "/contact",
+        },
+      ],
     };
-  }
+  },
 };
 </script>
 
@@ -132,20 +146,52 @@ export default {
 .hello .navbar {
   padding-top: 1rem;
   padding-left: 0rem;
- 
 }
 
-.hello {
-  background-color: #54b689;
-  width: 100%;
-  border-right: 7px solid teal;
-  height: 100%;
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+  .hello {
+    background-color: #54b689;
+
+    border-right: 7px solid teal;
+    height: 100%;
+    position: fixed;
+    width: 200px;
+  }
+}
+@media only screen and (min-device-width: 1024px) {
+  .hello {
+    background-color: #54b689;
+
+    border-right: 7px solid teal;
+    height: 100%;
+    position: fixed;
+    width: 265px;
+  }
+}
+@media only screen and (max-device-width: 767px) {
+  .hello {
+    background-color: #54b689;
+
+    border-right: 7px solid teal;
+    height: 100%;
+
+    width: 100%;
+  }
+}
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  .hello {
+    background-color: #54b689;
+
+    border-right: 7px solid teal;
+    height: 100%;
+    position: fixed;
+    width: 200px;
+  }
 }
 
 h1.head {
   color: white;
   text-align: center;
- 
 }
 
 .image {
