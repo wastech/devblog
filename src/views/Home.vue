@@ -1,12 +1,12 @@
 <template>
-  <div class="home">
+<div class="home">
     <SideNave />
     <whatido />
     <experience />
     <Testimonial />
     <FeatureProject />
     <LatestBlog />
-  </div>
+</div>
 </template>
 
 <script>
@@ -19,15 +19,15 @@ import Testimonial from "@/components/Testimonial.vue";
 import FeatureProject from "@/components/FeatureProject";
 
 export default {
-  name: "Home",
-  components: {
-    SideNave,
-    whatido,
-    experience,
-    Testimonial,
-    FeatureProject,
-    LatestBlog
-  }
+    name: "Home",
+    components: {
+        SideNave,
+        whatido,
+        experience,
+        Testimonial,
+        FeatureProject,
+        LatestBlog
+    }
 };
 </script>
 
